@@ -27,7 +27,7 @@ class Article(models.Model):
     )
     _type = models.ForeignKey(
         ArticleType,
-        on_delete=models.CASCADE
+        on_delete=models.CASCADE,
         blank=True,
         null=True
     )

@@ -20,4 +20,5 @@ class CustomUserAdmin(UserAdmin):
         "username", "email", "first_name", "last_name",
         "department", "role", "is_staff", 
     ]
- admin.site.register(CustomUser, CustomUserAdmin)       
+    
+admin.site.register(CustomUser, CustomUserAdmin)
